@@ -55,7 +55,6 @@
     "redux-promise-middleware": "^5.1.1",
     "redux-thunk": "^2.2.0",
     "rumble-charts": "^2.0.0",
-    "semantic-ui": "^2.2.10",
     "semantic-ui-css": "^2.2.10",
     "semantic-ui-react": "^0.80.0"
   },
