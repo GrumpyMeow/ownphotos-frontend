@@ -4,6 +4,7 @@ MAINTAINER ViViDboarder <vividboarder@gmail.com>
 RUN apt-get update && \
     apt-get install -y curl && \
     curl --silent --location https://deb.nodesource.com/setup_6.x | bash && \
+    apt-get install -y git-all && \
     apt-get install -y nodejs && \
     apt-get remove --purge -y curl && \
     rm -rf /var/lib/apt/lists/*
